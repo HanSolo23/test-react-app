@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +7,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  .bla {
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    list-style: none;
+    .index {
+      margin-right: 10px;
+    }
+  }
 }
 
 code {
